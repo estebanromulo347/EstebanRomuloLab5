@@ -11,7 +11,7 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
         Intent i = new Intent(this, MyCustomService.class);
         this.startService(i);
     }
@@ -19,11 +19,11 @@ public class Main2Activity extends AppCompatActivity {
     public void process(View v) {
         Intent i = null, chooser = null;
 
-        if (v.getId() == R.id.button6) {
+        if (v.getId() == R.id.button3) {
             i = new Intent(this, MainActivity.class);
             startActivity(i);
 
-        } else if (v.getId() == R.id.button2) {
+        } else if (v.getId() == R.id.button4) {
             i = new Intent(Intent.ACTION_VIEW);
 
             i.setData(Uri.parse("geo:41.403666, 2.174426"));

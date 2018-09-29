@@ -4,11 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:layout_editor_absoluteY="81dp"><![CDATA[
-    tools:layout_editor_absoluteY="50dp">
-
-    ]]>
-
+    tools:layout_editor_absoluteY="81dp">
     <ImageView
         android:id="@+id/imageView2"
         style="@style/secondStyle"

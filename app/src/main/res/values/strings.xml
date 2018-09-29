@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EstebanRomuloLab5</string>
+    <string name="app_1">Activity 1</string>
+    <string name="app_2">Activity 2</string>
 </resources>
